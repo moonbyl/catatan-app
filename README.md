@@ -9,9 +9,8 @@ Catatan App adalah aplikasi web sederhana berbasis React yang memungkinkan pengg
 - Menampilkan daftar catatan
 - Menambahkan catatan baru
 - Menghapus catatan
-- Pencarian catatan *(opsional jika ditambahkan)*
-- Mode gelap & terang *(opsional jika ditambahkan)*
-- Fitur arsip catatan *(opsional jika ditambahkan)*
+- Pencarian catatan 
+- Fitur arsip catatan
 
 ## Teknologi yang Digunakan
 
