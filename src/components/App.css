@@ -1,0 +1,102 @@
+/* App.css */
+
+/* Umum */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container utama */
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul utama */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Input dan textarea */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Tombol */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Catatan (Note Card) */
+.note-card {
+  background-color: #fefefe;
+  border-left: 5px solid #007bff;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Judul & isi catatan */
+.note-card h3 {
+  margin: 0 0 8px;
+  color: #333;
+}
+
+.note-card p {
+  margin: 0 0 12px;
+  color: #555;
+}
+
+/* Tanggal catatan */
+.note-card small {
+  color: #888;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Tombol dalam kartu */
+.note-card .buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Heading bagian catatan */
+h2 {
+  margin-top: 32px;
+  color: #34495e;
+}
+
+/* Karakter tersisa */
+form p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 8px;
+}
