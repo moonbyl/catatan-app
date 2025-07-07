@@ -21,3 +21,22 @@ Catatan App adalah aplikasi web sederhana berbasis React yang memungkinkan pengg
    ```bash
    git clone https://github.com/moonbyl/catatan-app.git
    cd catatan-app
+
+2. Install dependensi
+   ```bash
+   npm install
+   
+3. Jalankan di lokal
+   ```bash
+   npm start
+   
+Lalu buka http://localhost:3000 di browser kamu.
+
+
+- Build untuk produksi
+   ```bash
+   npm run build
+   
+- Deploy ke GitHub Pages
+   ```bash
+  npm run deploy
